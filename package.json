@@ -1,0 +1,20 @@
+{
+  "name": "node-mailer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "author": "saqib",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.6.8",
+    "uuidv4": "^2.0.0"
+  }
+}
