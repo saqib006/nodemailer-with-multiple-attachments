@@ -21,12 +21,7 @@ const upload = multer();
 app.get('/', (req, res)=>{
     res.render('contact')
 })
-app.post('/dd', upload.array('attachment', 2), (req, res)=>{
-
-   
-  console.log(req.body.email)
-
-})  
+  
 
 app.post('/send', upload.array('attachment', 2), (req, res)=>{
 
